@@ -16,7 +16,8 @@
   "navigation": {
     "languages": [
       {
-        "products": [
+        "language": "Español",
+        "versions": [
           {
             "icon": "book",
             "groups": [
@@ -179,10 +180,9 @@
                 ]
               }
             ],
-            "product": "Documentation"
+            "version": "Documentation"
           }
-        ],
-        "language": "Español"
+        ]
       }
     ]
   },
