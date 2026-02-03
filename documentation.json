@@ -182,7 +182,13 @@
             ],
             "tab": "Orama Academy"
           }
-        ]
+        ],
+        "icon": "circle-check"
+      },
+      {
+        "language": "English",
+        "pages": [],
+        "icon": "circle-check"
       }
     ]
   },
