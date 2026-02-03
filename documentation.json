@@ -1,6 +1,6 @@
 {
   "name": "Orama",
-  "initialRoute": "introduction",
+  "initialRoute": "test",
   "colors": {
     "light": {
       "brand": "#1A5DFF",
