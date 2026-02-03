@@ -24,6 +24,11 @@
             "icon": "rocket",
             "pages": [
               {
+                "title": "Bloques",
+                "path": "bloques",
+                "icon": "alarm-clock-check"
+              },
+              {
                 "title": "Introduction",
                 "path": "introduction",
                 "icon": "home"

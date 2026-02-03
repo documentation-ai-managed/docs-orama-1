@@ -1,9 +1,11 @@
 ---
 title: Introduction to Orama
-description: Discover Orama, a SaaS platform for streamlined treasury management that helps businesses track cash flow, reconcile banks, and forecast finances efficiently.
+description: >-
+  Discover Orama, a SaaS platform for streamlined treasury management that helps
+  businesses track cash flow, reconcile banks, and forecast finances
+  efficiently.
 ---
-
-<Callout kind="info" title="Starter Kit Template">
+<Callout kind="info" collapsed="false">
   This documentation was generated as a starter kit template based on your brand. Please review and customize the content to accurately reflect your product's features, APIs, and capabilities.
 </Callout>
 
@@ -13,52 +15,141 @@ Orama simplifies treasury management for your business. You gain real-time visib
 
 ## Key Features
 
-<Columns cols={3}>
-  <Card title="Cash Flow Tracking" icon="dollar-sign" href="#cash-flow">
+<Columns cols="3">
+  <Card title="Cash Flow Tracking" href="#cash-flow" icon="dollar-sign" horizontal="false">
     Monitor inflows and outflows in real-time across multiple accounts.
   </Card>
-  <Card title="Bank Reconciliation" icon="credit-card" href="#reconciliation">
+
+  <Card title="Bank Reconciliation" href="#reconciliation" icon="credit-card" horizontal="false">
     Automate matching of bank statements with your records for accuracy.
   </Card>
-  <Card title="Financial Forecasting" icon="trending-up" href="#forecasting">
+
+  <Card title="Financial Forecasting" href="#forecasting" icon="trending-up" horizontal="false">
     Predict future cash positions with AI-driven insights and scenarios.
   </Card>
 </Columns>
 
 <Expandable title="Detailed Benefits" default-open="false">
-
-Orama integrates seamlessly with your banking APIs, providing dashboards that update automatically. You benefit from customizable reports, multi-currency support, and alerts for potential shortfalls.
-
+  Orama integrates seamlessly with your banking APIs, providing dashboards that update automatically. You benefit from customizable reports, multi-currency support, and alerts for potential shortfalls.
 </Expandable>
 
 ## Pricing Plans
 
 <Tabs>
-  <Tab title="Starter" icon="star">
-    Ideal for small teams.
-    
-    - 41€/month
-    - Up to 5 bank accounts
-    - Basic forecasting
-    
-    <Callout kind="success">
+  <Tab title="Basic" icon="star">
+    Olvídate del Excel y empieza a automatizar tu tesorería
+
+    **49 €**&#x4D;ensual
+
+    - • 5 Productos financieros \*
+
+    - • 2 Usuarios
+
+    - • 12 Meses de previsión
+
+    - • 3.000 Operaciones/año
+
+    - • 2 Escenarios
+
+    - • 1 Presupuesto / año
+
+    - • 1 Ratio
+
+    - • Exportar archivos
+
+    <Callout kind="success" collapsed="false">
       15-day free trial, no card required.
     </Callout>
   </Tab>
-  <Tab title="Pro" icon="award">
-    For growing businesses.
-    
-    - 99€/month
-    - Unlimited accounts
-    - Advanced AI forecasts
-    - Priority support
+
+  <Tab title="Growth" icon="award">
+    Integra tus facturas y lleva tu tesorería al siguiente nivel
+
+    **79 €**&#x4D;ensual
+
+    - • 7 Productos financieros \*
+
+    - • 3 Usuarios
+
+    - • 12 Meses de previsión
+
+    - • 5.000 Operaciones/año
+
+    - • 2 Escenarios
+
+    - • 1 Presupuesto / año
+
+    - • 3 Ratios
+
+    - 3 Tags Personalizadas
+
+    - Integración Facturas
+
+    \\
   </Tab>
-  <Tab title="Enterprise" icon="shield">
-    Custom solutions.
-    
-    - Contact sales
-    - API access
-    - Dedicated manager
+
+  <Tab title="Scale" icon="shield">
+    Para los más exigentes. Más detalle con más reportes
+
+    **109 €**&#x4D;ensual
+
+    - • 7 Productos financieros \*
+
+    - • 4 Usuarios
+
+    - • 18 Meses de previsión
+
+    - • 5.000 Operaciones / año
+
+    - • 5 Escenarios
+
+    - • 2 Presupuesto / año
+
+    - • 7 Ratios
+
+    - • 7 Tags Personalizadas
+
+    - • Integración Facturas
+
+    - Reportes Avanzados
+
+    - 2 Empresas
+
+    - Matriz Consolidada
+  </Tab>
+
+  <Tab title="Full Edition">
+    Conecta varias empresas y consigue una visión consolidada
+
+    **149 €**&#x4D;ensual
+
+    - • 10 Productos financieros \*
+
+    - • 5 Usuarios
+
+    - • 24 Meses de previsión
+
+    - • 7.500 Operaciones/año
+
+    - • 10 Escenarios
+
+    - • 4 Presupuesto / año
+
+    - • 10 Ratios
+
+    - • 10 Tags Personalizadas
+
+    - • Integracion Facturas
+
+    - • Reportes Avanzados
+
+    - • Api Externa
+
+    - • 3 Empresas
+
+    - • Matriz Consolidada
+
+    - Rol de Usuarios
   </Tab>
 </Tabs>
 
@@ -66,11 +157,12 @@ Orama integrates seamlessly with your banking APIs, providing dashboards that up
 
 Orama serves SMEs, startups, franchises, and financial advisors. Examples include advisory firms like BDO, franchise networks such as Carrefour Express, and innovative startups.
 
-<Columns cols={2}>
-  <Card title="SMEs & Startups" icon="users" horizontal>
+<Columns cols="2">
+  <Card title="SMEs & Startups" icon="users" horizontal="false">
     Scale your treasury operations without hiring specialists.
   </Card>
-  <Card title="Franchises" icon="store" horizontal>
+
+  <Card title="Franchises" icon="store" horizontal="false">
     Centralize financial oversight across multiple locations.
   </Card>
 </Columns>
@@ -80,34 +172,40 @@ Orama serves SMEs, startups, franchises, and financial advisors. Examples includ
 Get up and running in minutes.
 
 <Steps>
-  <Step title="Sign Up" icon="user-plus">
+  <Step title="Sign Up" icon="user-plus" title-type="p">
     Create your account at `https://dashboard.orama.ai` and start the 15-day free trial.
   </Step>
-  <Step title="Connect Banks" icon="link">
+
+  <Step title="Connect Banks" icon="link" title-type="p">
     Link your bank accounts via secure API connections.
   </Step>
-  <Step title="Review Dashboard" icon="bar-chart-3">
+
+  <Step title="Review Dashboard" icon="bar-chart-3" title-type="p">
     Explore real-time cash positions and forecasts.
   </Step>
-  <Step title="Set Alerts" icon="bell">
+
+  <Step title="Set Alerts" icon="bell" title-type="p">
     Configure notifications for cash thresholds.
   </Step>
 </Steps>
 
 ## Next Steps
 
-<Columns cols={3}>
-  <Card title="Quickstart Guide" icon="book-open" href="/quickstart">
+<Columns cols="3">
+  <Card title="Quickstart Guide" href="/quickstart" icon="book-open" horizontal="false">
     Detailed setup instructions.
   </Card>
-  <Card title="Authentication" icon="lock" href="/authentication">
+
+  <Card title="Authentication" href="/authentication" icon="lock" horizontal="false">
     Secure API access.
   </Card>
-  <Card title="API Reference" icon="code" href="/api-reference">
+
+  <Card title="API Reference" href="/api-reference" icon="code" horizontal="false">
     Integrate programmatically.
   </Card>
 </Columns>
 
-<Callout kind="tip">
-  Begin with the <a href="/quickstart">Quickstart Guide</a> to connect your first bank account.
+<Callout kind="tip" collapsed="false">
+  Begin with the [Quickstart Guide](/quickstart) to connect your first bank account.
 </Callout>
+
