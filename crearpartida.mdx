@@ -1,31 +1,35 @@
 ---
-title: Core Features Guide
-description: Learn how to use Orama's essential tools for bank reconciliation, dashboards, forecasting, and scenario planning to optimize your business finances.
+title: Qué es una partida y cómo crearla
+description: >-
+  Learn how to use Orama's essential tools for bank reconciliation, dashboards,
+  forecasting, and scenario planning to optimize your business finances.
 ---
-
 ## Overview
 
 Orama provides powerful tools to streamline your treasury management. You automate reconciliations to eliminate manual errors, build custom dashboards for real-time insights, generate forecasts based on historical data, and simulate scenarios to plan for the future. These features save time and improve decision-making.
 
-<Callout kind="info">
-Review your data sources before enabling these features for optimal results.
+<Callout kind="info" collapsed="false">
+  Review your data sources before enabling these features for optimal results.
 </Callout>
 
 ## Key Features
 
 Discover Orama's core capabilities at a glance.
 
-<Columns cols={2}>
-  <Card title="Bank Reconciliations" icon="database" href="#bank-reconciliations">
+<Columns cols="2">
+  <Card title="Bank Reconciliations" href="#bank-reconciliations" icon="database" horizontal="false">
     Automate matching of bank statements with your accounting records.
   </Card>
-  <Card title="Treasury Dashboards" icon="bar-chart-3" href="#dashboards">
+
+  <Card title="Treasury Dashboards" href="#dashboards" icon="bar-chart-3" horizontal="false">
     Visualize cash positions with categorized views.
   </Card>
-  <Card title="Financial Forecasts" icon="trending-up" href="#forecasts">
+
+  <Card title="Financial Forecasts" href="#forecasts" icon="trending-up" horizontal="false">
     Predict future cash flows automatically.
   </Card>
-  <Card title="What-If Scenarios" icon="zap" href="#scenarios">
+
+  <Card title="What-If Scenarios" href="#scenarios" icon="zap" horizontal="false">
     Test business decisions with simulations.
   </Card>
 </Columns>
@@ -37,25 +41,27 @@ Match transactions effortlessly to keep your books accurate.
 ### Setup Process
 
 <Steps>
-  <Step title="Connect Bank" icon="link">
+  <Step title="Connect Bank" icon="link" title-type="p">
     Link your bank accounts via secure API or CSV upload.
 
-````csv
-Date,Description,Amount,Reference
-2024-01-15,Client Payment,1500.00,INV-123
-2024-01-16,Sales Receipt,2500.50,INV-124
-````
+    ```csv
+    Date,Description,Amount,Reference
+    2024-01-15,Client Payment,1500.00,INV-123
+    2024-01-16,Sales Receipt,2500.50,INV-124
+    ```
   </Step>
-  <Step title="Map Categories" icon="settings">
+
+  <Step title="Map Categories" icon="settings" title-type="p">
     Assign rules for automatic categorization.
   </Step>
-  <Step title="Run Reconciliation" icon="play">
+
+  <Step title="Run Reconciliation" icon="play" title-type="p">
     Orama matches 95%+ of transactions automatically.
   </Step>
 </Steps>
 
-<Callout kind="tip">
-Use custom rules for recurring transactions to boost accuracy.
+<Callout kind="tip" collapsed="false">
+  Use custom rules for recurring transactions to boost accuracy.
 </Callout>
 
 ## Building Categorized Treasury Dashboards
@@ -75,6 +81,7 @@ Create personalized views of your cash flow.
     }
     ```
   </Tab>
+
   <Tab title="Forecast View" icon="trending-up">
     Overlay predictions on historical data.
   </Tab>
@@ -86,23 +93,24 @@ Configure widgets for departments like sales or operations.
 
 Orama analyzes your data to project cash flows.
 
-<CodeGroup tabs="Monthly,Quarterly">
-````javascript
-// Monthly forecast config
-{
-  "horizon": 12,
-  "model": "arima",
-  "dataSource": "bank_statements"
-}
-````
-````javascript
-// Quarterly forecast config
-{
-  "horizon": 4,
-  "model": "prophet",
-  "seasonality": true
-}
-````
+<CodeGroup show-lines="true" tabs={[]}>
+  ```javascript
+  // Monthly forecast config
+  {
+    "horizon": 12,
+    "model": "arima",
+    "dataSource": "bank_statements"
+  }
+  ```
+
+  ```javascript
+  // Quarterly forecast config
+  {
+    "horizon": 4,
+    "model": "prophet",
+    "seasonality": true
+  }
+  ```
 </CodeGroup>
 
 Forecasts update daily with new transactions.
@@ -114,34 +122,42 @@ Simulate changes to evaluate impacts.
 ### Scenario Workflow
 
 1. Duplicate your base forecast.
+
 2. Adjust variables like expenses or revenue.
+
 3. Compare outcomes side-by-side.
 
-| Scenario | Revenue Change | Expense Change | Projected Balance |
-|----------|----------------|----------------|-------------------|
-| Base     | 0%             | 0%             | €50,000           |
-| Optimistic | +10%         | -5%            | €65,000           |
-| Pessimistic | -5%         | +10%           | €35,000           |
+| Scenario    | Revenue Change | Expense Change | Projected Balance |
+| ----------- | -------------- | -------------- | ----------------- |
+| Base        | 0%             | 0%             | €50,000           |
+| Optimistic  | +10%           | -5%            | €65,000           |
+| Pessimistic | -5%            | +10%           | €35,000           |
 
 <Expandable title="Advanced Scenario Tips" default-open="false">
-Use sensitivity analysis for key variables like interest rates.
+  Use sensitivity analysis for key variables like interest rates.
 </Expandable>
 
 ## Best Practices
 
 - Integrate all bank accounts for complete visibility.
+
 - Review reconciliations weekly.
+
 - Share dashboards with your team for collaboration.
+
 - Run scenarios before major decisions.
 
-<Columns cols={3}>
-  <Card title="Quickstart" icon="rocket" href="/quickstart">
+<Columns cols="3">
+  <Card title="Quickstart" href="/quickstart" icon="rocket" horizontal="false">
     Get started in minutes.
   </Card>
-  <Card title="Authentication" icon="shield" href="/authentication">
+
+  <Card title="Authentication" href="/authentication" icon="shield" horizontal="false">
     Secure your data.
   </Card>
-  <Card title="Support" icon="help-circle" href="/help-center">
+
+  <Card title="Support" href="/help-center" icon="help-circle" horizontal="false">
     Need assistance?
   </Card>
 </Columns>
+
