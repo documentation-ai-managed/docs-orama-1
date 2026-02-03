@@ -127,7 +127,7 @@
             "pages": [
               {
                 "title": "Qué es y cómo funciona confirming",
-                "path": "confirming",
+                "path": "-confirming",
                 "icon": "a-arrow-down"
               },
               {
@@ -178,6 +178,16 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "TEST",
+        "pages": [
+          {
+            "title": "testtttt",
+            "path": "testtttt"
+          }
+        ],
+        "icon": "a-arrow-down"
       }
     ]
   }
