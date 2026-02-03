@@ -178,16 +178,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "TEST",
-        "pages": [
-          {
-            "title": "testtttt",
-            "path": "testtttt"
-          }
-        ],
-        "icon": "a-arrow-down"
       }
     ]
   }
