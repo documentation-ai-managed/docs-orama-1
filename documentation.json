@@ -24,8 +24,8 @@
             "icon": "rocket",
             "pages": [
               {
-                "title": "Accede a Orama",
-                "path": "bloque 1",
+                "title": "Accede a Orama TEST",
+                "path": "test",
                 "icon": "alarm-clock-check"
               },
               {
