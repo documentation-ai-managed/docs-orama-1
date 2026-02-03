@@ -17,7 +17,7 @@
     "languages": [
       {
         "language": "Español",
-        "versions": [
+        "tabs": [
           {
             "icon": "book",
             "groups": [
@@ -180,7 +180,7 @@
                 ]
               }
             ],
-            "version": "Orama Academy"
+            "tab": "Orama Academy"
           }
         ]
       }
