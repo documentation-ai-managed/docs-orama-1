@@ -14,12 +14,11 @@
     }
   },
   "navigation": {
-    "products": [
+    "dropdowns": [
       {
-        "product": "t",
-        "tabs": [
+        "dropdown": "t",
+        "dropdowns": [
           {
-            "tab": "Documentation",
             "icon": "book",
             "groups": [
               {
@@ -180,7 +179,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "dropdown": "Documentation"
           }
         ]
       }
