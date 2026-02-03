@@ -1,0 +1,115 @@
+---
+title: Changelog
+description: Stay updated with Orama's release notes, including new features, improvements, and fixes to enhance your treasury management experience.
+---
+
+<Callout kind="info" title="Stay Informed">
+Subscribe to our release notifications or check the dashboard for automatic update alerts to ensure you always have the latest treasury management features.
+</Callout>
+
+## Recent Releases
+
+Stay current with Orama's latest enhancements in cash flow forecasting, bank reconciliations, and reporting tools.
+
+<Update label="2024-10-15" description="v2.1.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added AI-powered cash flow predictions using historical data and market trends.
+- Introduced multi-currency support for international transactions.
+- New customizable dashboard widgets for key metrics like liquidity ratios.
+
+## Improvements
+
+- Enhanced bank sync speed by 40% with optimized API polling.
+- Improved report export options including PDF and Excel with custom branding.
+
+## Bug Fixes
+
+- Fixed reconciliation mismatches for SEPA transfers.
+- Resolved intermittent dashboard refresh issues during high-load periods.
+
+</Update>
+
+<Update label="2024-09-20" description="v2.0.0" tags={["feature", "breaking"]}>
+
+## New Features
+
+- Complete overhaul of the forecasting engine with scenario planning tools.
+- Integrated webhook notifications for payment events.
+- Added role-based access controls for team collaboration.
+
+## Breaking Changes
+
+- Updated API endpoints for forecasts: Use `/v2/forecasts` instead of `/forecasts`.
+- Deprecated legacy report formats; migrate to new schema.
+
+## Bug Fixes
+
+- Corrected rounding errors in multi-account consolidations.
+- Fixed export failures for large datasets over 10,000 transactions.
+
+</Update>
+
+<Update label="2024-08-10" description="v1.9.0" tags={["bugfix", "improvement"]}>
+
+## Improvements
+
+- Streamlined onboarding with one-click bank connections for major Spanish banks.
+- Optimized mobile app performance for on-the-go treasury reviews.
+
+## Bug Fixes
+
+- Patched security vulnerability in session handling (CVE-2024-XXXX).
+- Resolved sync errors with certain CSV import formats.
+
+</Update>
+
+## Upgrade Instructions
+
+To upgrade Orama, follow these steps in your dashboard.
+
+<Steps>
+  <Step title="Check Current Version" icon="info">
+    Navigate to **Settings > About** to view your installed version.
+  </Step>
+  <Step title="Review Changelog" icon="book-open">
+    Scan this page for breaking changes relevant to your setup.
+  </Step>
+  <Step title="Update" icon="download">
+    Click **Update Now** in the dashboard. The process takes under 5 minutes.
+  </Step>
+  <Step title="Verify" icon="check-circle">
+    Test key workflows like bank sync and forecasts post-update.
+  </Step>
+</Steps>
+
+## Upcoming Roadmap
+
+<Expandable title="Sneak Peek: Q4 2024 Features" default-open="true">
+  
+Orama's next releases focus on automation and integrations.
+
+| Feature | Expected | Status |
+|---------|----------|--------|
+| ERP Integrations (SAP, Dynamics) | November 2024 | In Development |
+| Automated Anomaly Detection | December 2024 | Beta Testing |
+| Advanced Analytics with ML Insights | Q1 2025 | Planned |
+
+<Callout kind="tip">
+Join our beta program via the dashboard to test upcoming features early.
+</Callout>
+
+</Expandable>
+
+<Columns cols={3}>
+  <Card title="Quickstart" icon="rocket" href="/quickstart">
+    Get started with core treasury tools.
+  </Card>
+  <Card title="API Reference" icon="code" href="/authentication">
+    Integrate programmatically.
+  </Card>
+  <Card title="Support" icon="help-circle" href="/help-center">
+    Need assistance? Contact us.
+  </Card>
+</Columns>

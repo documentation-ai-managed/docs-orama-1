@@ -1,0 +1,147 @@
+---
+title: Core Features Guide
+description: Learn how to use Orama's essential tools for bank reconciliation, dashboards, forecasting, and scenario planning to optimize your business finances.
+---
+
+## Overview
+
+Orama provides powerful tools to streamline your treasury management. You automate reconciliations to eliminate manual errors, build custom dashboards for real-time insights, generate forecasts based on historical data, and simulate scenarios to plan for the future. These features save time and improve decision-making.
+
+<Callout kind="info">
+Review your data sources before enabling these features for optimal results.
+</Callout>
+
+## Key Features
+
+Discover Orama's core capabilities at a glance.
+
+<Columns cols={2}>
+  <Card title="Bank Reconciliations" icon="database" href="#bank-reconciliations">
+    Automate matching of bank statements with your accounting records.
+  </Card>
+  <Card title="Treasury Dashboards" icon="bar-chart-3" href="#dashboards">
+    Visualize cash positions with categorized views.
+  </Card>
+  <Card title="Financial Forecasts" icon="trending-up" href="#forecasts">
+    Predict future cash flows automatically.
+  </Card>
+  <Card title="What-If Scenarios" icon="zap" href="#scenarios">
+    Test business decisions with simulations.
+  </Card>
+</Columns>
+
+## Automating Bank Reconciliations
+
+Match transactions effortlessly to keep your books accurate.
+
+### Setup Process
+
+<Steps>
+  <Step title="Connect Bank" icon="link">
+    Link your bank accounts via secure API or CSV upload.
+
+````csv
+Date,Description,Amount,Reference
+2024-01-15,Client Payment,1500.00,INV-123
+2024-01-16,Sales Receipt,2500.50,INV-124
+````
+  </Step>
+  <Step title="Map Categories" icon="settings">
+    Assign rules for automatic categorization.
+  </Step>
+  <Step title="Run Reconciliation" icon="play">
+    Orama matches 95%+ of transactions automatically.
+  </Step>
+</Steps>
+
+<Callout kind="tip">
+Use custom rules for recurring transactions to boost accuracy.
+</Callout>
+
+## Building Categorized Treasury Dashboards
+
+Create personalized views of your cash flow.
+
+<Tabs>
+  <Tab title="Cash Position" icon="dollar-sign">
+    Track inflows, outflows, and balances.
+
+    ```javascript
+    {
+      "currentBalance": 50000,
+      "inflows": 25000,
+      "outflows": 15000,
+      "net": 10000
+    }
+    ```
+  </Tab>
+  <Tab title="Forecast View" icon="trending-up">
+    Overlay predictions on historical data.
+  </Tab>
+</Tabs>
+
+Configure widgets for departments like sales or operations.
+
+## Generating Automatic Financial Forecasts
+
+Orama analyzes your data to project cash flows.
+
+<CodeGroup tabs="Monthly,Quarterly">
+````javascript
+// Monthly forecast config
+{
+  "horizon": 12,
+  "model": "arima",
+  "dataSource": "bank_statements"
+}
+````
+````javascript
+// Quarterly forecast config
+{
+  "horizon": 4,
+  "model": "prophet",
+  "seasonality": true
+}
+````
+</CodeGroup>
+
+Forecasts update daily with new transactions.
+
+## Creating What-If Scenarios
+
+Simulate changes to evaluate impacts.
+
+### Scenario Workflow
+
+1. Duplicate your base forecast.
+2. Adjust variables like expenses or revenue.
+3. Compare outcomes side-by-side.
+
+| Scenario | Revenue Change | Expense Change | Projected Balance |
+|----------|----------------|----------------|-------------------|
+| Base     | 0%             | 0%             | €50,000           |
+| Optimistic | +10%         | -5%            | €65,000           |
+| Pessimistic | -5%         | +10%           | €35,000           |
+
+<Expandable title="Advanced Scenario Tips" default-open="false">
+Use sensitivity analysis for key variables like interest rates.
+</Expandable>
+
+## Best Practices
+
+- Integrate all bank accounts for complete visibility.
+- Review reconciliations weekly.
+- Share dashboards with your team for collaboration.
+- Run scenarios before major decisions.
+
+<Columns cols={3}>
+  <Card title="Quickstart" icon="rocket" href="/quickstart">
+    Get started in minutes.
+  </Card>
+  <Card title="Authentication" icon="shield" href="/authentication">
+    Secure your data.
+  </Card>
+  <Card title="Support" icon="help-circle" href="/help-center">
+    Need assistance?
+  </Card>
+</Columns>
