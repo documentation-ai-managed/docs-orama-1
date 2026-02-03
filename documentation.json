@@ -20,45 +20,160 @@
         "icon": "book",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": " · Primeros pasos (Onboarding puro)",
             "icon": "rocket",
             "pages": [
               {
-                "title": "Bloques",
-                "path": "bloques",
+                "title": "Accede a Orama",
+                "path": "bloque 1",
                 "icon": "alarm-clock-check"
               },
               {
-                "title": "Introduction",
-                "path": "introduction",
+                "title": "Damos una vuelta por Orama",
+                "path": "primerospasos",
                 "icon": "home"
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
+                "title": "Conecta tus bancos",
+                "path": "conectabancos",
                 "icon": "zap"
+              },
+              {
+                "title": "Cuadro de tesorería: Qué es y cómo leerlo",
+                "path": "cuadrotesoreria",
+                "icon": "activity"
               }
             ]
           },
           {
-            "group": "Core Concepts",
+            "group": " · Gestión diaria de la tesorería",
             "icon": "layers",
             "pages": [
               {
-                "title": "Features",
-                "path": "features",
+                "title": "Qué es una partida y cómo crearla",
+                "path": "crearpartida",
                 "icon": "file-text"
+              },
+              {
+                "title": "Editar partidas",
+                "path": "editar-partidas",
+                "icon": "airplay"
+              },
+              {
+                "title": "Crea y gestiona categorías",
+                "path": "crea-y-gestiona-categoras",
+                "icon": "align-center-icon"
+              },
+              {
+                "title": "Conciliación de movimientos",
+                "path": "conciliacin-de-movimientos",
+                "icon": "album"
+              },
+              {
+                "title": "Gestión de facturas",
+                "path": "gestin-de-facturas",
+                "icon": "alert-triangle"
               }
             ]
           },
           {
-            "group": "Advanced",
+            "group": "· Importaciones y automatización",
             "icon": "grid",
             "pages": [
               {
-                "title": "Integrations",
-                "path": "integrations",
+                "title": "Importa tus movimientos en Excel",
+                "path": "importa-movimientos",
+                "icon": "alert-circle-icon"
+              },
+              {
+                "title": "Importa tus facturas en Excel",
+                "path": "importa-facturas",
+                "icon": "alert-triangle-icon"
+              },
+              {
+                "title": "Importa tus previsiones en Excel",
+                "path": "importa-previsiones",
                 "icon": "plug"
+              }
+            ]
+          },
+          {
+            "group": "· Previsiones, ERP y control avanzado",
+            "pages": [
+              {
+                "title": "Crea una previsión",
+                "path": "crea-una-previsin",
+                "icon": "a-arrow-down-icon"
+              },
+              {
+                "title": "Conecta tu ERP",
+                "path": "conecta-tu-erp",
+                "icon": "activity-square-icon"
+              },
+              {
+                "title": "Qué es un saldo pendiente",
+                "path": "qu-es-un-saldo-pendiente",
+                "icon": "alarm-clock-plus-icon"
+              },
+              {
+                "title": "Actualiza tus saldos pendientes",
+                "path": "actualiza-tus-saldos-pendientes",
+                "icon": "airplay-icon"
+              }
+            ]
+          },
+          {
+            "group": "· Financiación e instrumentos",
+            "pages": [
+              {
+                "title": "Qué es y cómo funciona confirming",
+                "path": "-confirming",
+                "icon": "a-arrow-down"
+              },
+              {
+                "title": "Qué es y cómo funciona factoring",
+                "path": "factoring",
+                "icon": "align-center-vertical-icon"
+              }
+            ]
+          },
+          {
+            "group": "· Casos especiales y uso avanzado",
+            "pages": [
+              {
+                "title": "Remesas: qué son y cómo usarlas",
+                "path": "remesas-qu-son-y-cmo-usarlas",
+                "icon": "accessibility-icon"
+              },
+              {
+                "title": "Análisis visual",
+                "path": "anlisis-visual",
+                "icon": "activity"
+              },
+              {
+                "title": "Mete movimientos AMEX",
+                "path": "mete-movimientos-amex",
+                "icon": "align-center"
+              },
+              {
+                "title": "Dividir un movimiento",
+                "path": "dividir-un-movimiento",
+                "icon": "align-center-vertical"
+              },
+              {
+                "title": "Dashboard",
+                "path": "dashboard",
+                "icon": "activity-square-icon"
+              },
+              {
+                "title": "Matriz y multiempresa: cómo funciona",
+                "path": "matriz-y-multiempresa-cmo-funciona",
+                "icon": "a-arrow-down-icon"
+              },
+              {
+                "title": "Reportes y escenarios",
+                "path": "reportes-y-escenarios",
+                "icon": "alert-triangle-icon"
               }
             ]
           }
