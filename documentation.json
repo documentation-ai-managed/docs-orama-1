@@ -14,9 +14,8 @@
     }
   },
   "navigation": {
-    "languages": [
+    "versions": [
       {
-        "language": "t",
         "products": [
           {
             "icon": "book",
@@ -182,7 +181,8 @@
             ],
             "product": "Documentation"
           }
-        ]
+        ],
+        "version": "t"
       }
     ]
   }
