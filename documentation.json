@@ -16,7 +16,8 @@
   "navigation": {
     "languages": [
       {
-        "tabs": [
+        "language": "t",
+        "products": [
           {
             "icon": "book",
             "groups": [
@@ -179,10 +180,9 @@
                 ]
               }
             ],
-            "tab": "Documentation"
+            "product": "Documentation"
           }
-        ],
-        "language": "t"
+        ]
       }
     ]
   }
