@@ -22,11 +22,11 @@
             "icon": "book",
             "groups": [
               {
-                "group": " · Primeros pasos",
+                "group": "Primeros pasos",
                 "icon": "rocket",
                 "pages": [
                   {
-                    "title": "Accede a Orama TEST",
+                    "title": "Accede a Orama",
                     "path": "test",
                     "icon": "alarm-clock-check"
                   },
