@@ -14,10 +14,9 @@
     }
   },
   "navigation": {
-    "dropdowns": [
+    "languages": [
       {
-        "dropdown": "t",
-        "dropdowns": [
+        "tabs": [
           {
             "icon": "book",
             "groups": [
@@ -180,9 +179,10 @@
                 ]
               }
             ],
-            "dropdown": "Documentation"
+            "tab": "Documentation"
           }
-        ]
+        ],
+        "language": "t"
       }
     ]
   }
