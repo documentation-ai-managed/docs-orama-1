@@ -26,9 +26,8 @@
                 "icon": "rocket",
                 "pages": [
                   {
-                    "title": "Accede a Orama",
-                    "path": "test",
-                    "icon": "alarm-clock-check"
+                    "title": "- Accede a Orama",
+                    "path": "test"
                   },
                   {
                     "title": "Damos una vuelta por Orama",
