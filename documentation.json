@@ -221,6 +221,10 @@
         {
           "title": "APP Orama",
           "link": "https://app.orama.ai/?register=true"
+        },
+        {
+          "title": "Orama WEB",
+          "link": "https://orama.ai"
         }
       ]
     }
