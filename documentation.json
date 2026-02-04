@@ -22,7 +22,7 @@
             "icon": "book",
             "groups": [
               {
-                "group": "🔵 Bienvenido",
+                "group": "🔹 Bienvenido",
                 "pages": [
                   {
                     "title": "Que es Orama",
@@ -36,8 +36,7 @@
                     "title": "Precios",
                     "path": "precios"
                   }
-                ],
-                "icon": "align-center-icon"
+                ]
               },
               {
                 "group": "🔵 Primeros pasos",
