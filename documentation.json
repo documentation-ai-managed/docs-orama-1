@@ -221,10 +221,6 @@
   "template": "atlas",
   "navbar": {
     "actions": {
-      "primary": {
-        "title": "volver a Orama",
-        "link": "https://app.orama.ai/?register=true"
-      },
       "links": [
         {
           "title": "Ir a Orama APP",
