@@ -18,7 +18,6 @@
         "language": "Español",
         "tabs": [
           {
-            "icon": "book",
             "groups": [
               {
                 "group": "○ Bienvenido",
@@ -204,7 +203,7 @@
                 ]
               }
             ],
-            "tab": "Volver a Orama ➜"
+            "tab": "Volverrrr ➜"
           }
         ],
         "icon": "circle-check"
