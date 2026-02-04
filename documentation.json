@@ -22,12 +22,30 @@
             "icon": "book",
             "groups": [
               {
-                "group": "Primeros pasos",
-                "icon": "alert-triangle-icon",
+                "group": "Bienvenido",
                 "pages": [
                   {
-                    "title": "○ Accede a Orama",
-                    "path": "test"
+                    "title": "Bienvenido a Orama Academy",
+                    "path": "bienvenido-a-orama"
+                  },
+                  {
+                    "title": "Qué es Orama",
+                    "path": "qu-es-orama"
+                  },
+                  {
+                    "title": "Precios",
+                    "path": "precios"
+                  }
+                ]
+              },
+              {
+                "group": "Primeros pasos",
+                "icon": "rocket",
+                "pages": [
+                  {
+                    "title": "Accede a Orama",
+                    "path": "test",
+                    "icon": "alarm-clock-check"
                   },
                   {
                     "title": "Damos una vuelta por Orama",
