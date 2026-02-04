@@ -22,7 +22,7 @@
             "icon": "book",
             "groups": [
               {
-                "group": "Bienvenido",
+                "group": "🔵 Bienvenido",
                 "pages": [
                   {
                     "title": "Que es Orama",
@@ -40,8 +40,8 @@
                 "icon": "align-center-icon"
               },
               {
-                "group": "Primeros pasos",
-                "icon": "alert-triangle-icon",
+                "group": "🔵 Primeros pasos",
+                "icon": "align-center-icon",
                 "pages": [
                   {
                     "title": "○ Accede a Orama",
@@ -65,7 +65,7 @@
                 ]
               },
               {
-                "group": " · Gestión diaria de la tesorería",
+                "group": "🔵 Gestión diaria de la tesorería",
                 "icon": "layers",
                 "pages": [
                   {
@@ -96,7 +96,7 @@
                 ]
               },
               {
-                "group": "· Importaciones y automatización",
+                "group": "🔵 Importaciones y automatización",
                 "icon": "grid",
                 "pages": [
                   {
@@ -117,7 +117,7 @@
                 ]
               },
               {
-                "group": "· Previsiones, ERP y control avanzado",
+                "group": "🔵 Previsiones, ERP y control avanzado",
                 "pages": [
                   {
                     "title": "Crea una previsión",
@@ -142,7 +142,7 @@
                 ]
               },
               {
-                "group": "· Financiación e instrumentos",
+                "group": "🔵 Financiación e instrumentos",
                 "pages": [
                   {
                     "title": "Qué es y cómo funciona confirming",
@@ -157,7 +157,7 @@
                 ]
               },
               {
-                "group": "· Casos especiales y uso avanzado",
+                "group": "🔵 Casos especiales y uso avanzado",
                 "pages": [
                   {
                     "title": "Remesas: qué son y cómo usarlas",
