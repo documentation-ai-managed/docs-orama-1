@@ -1,4 +1,33 @@
 ---
 title: Importa tus movimientos desde Excel
+description: |+
 ---
+Importar movimientos desde Excel
 
+Orama permite importar movimientos bancarios desde Excel cuando no es posible conectar un banco directamente.
+
+Desde Configuración > Importar, selecciona la opción de movimientos bancarios.
+
+Antes de importar, asegúrate de que el archivo Excel tenga al menos estos campos:
+
+<Columns cols="2">
+  <Card title="Fecha" horizontal="false" target="_self">
+    Card description...
+  </Card>
+
+  <Card title="Concepto" horizontal="false" target="_self">
+    Card description...
+  </Card>
+</Columns>
+
+<Card title="Importe" horizontal="false" target="_self">
+  Card description...
+</Card>
+
+El archivo no puede superar las 3.000 filas.
+
+Una vez subido el archivo, asigna correctamente los campos del Excel con los de Orama y confirma la importación.
+
+Si existen partidas con conciliación automática, los movimientos se conciliarán directamente.
+
+&#x20;En caso contrario, aparecerán como tareas pendientes de conciliación.

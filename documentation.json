@@ -36,7 +36,8 @@
                     "title": "Precios",
                     "path": "precios"
                   }
-                ]
+                ],
+                "icon": "align-center-icon"
               },
               {
                 "group": "Primeros pasos",
