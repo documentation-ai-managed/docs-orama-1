@@ -1,6 +1,5 @@
 {
   "name": "Orama",
-  "initialRoute": "test",
   "colors": {
     "light": {
       "brand": "#1A5DFF",
@@ -214,12 +213,12 @@
   "navbar": {
     "actions": {
       "primary": {
-        "title": "Ir a Orama APP",
+        "title": "volver a Orama",
         "link": "https://app.orama.ai/?register=true"
       },
       "links": [
         {
-          "title": "APP Orama",
+          "title": "Ir a Orama APP",
           "link": "https://app.orama.ai/?register=true"
         }
       ]
