@@ -47,7 +47,7 @@
                   },
                   {
                     "title": "Damos una vuelta por Orama",
-                    "path": "primeros-pasos",
+                    "path": "primerospasos",
                     "icon": "home"
                   },
                   {
@@ -204,7 +204,7 @@
                 ]
               }
             ],
-            "tab": "Academy"
+            "tab": "Volver a Orama ➜"
           }
         ],
         "icon": "circle-check"
