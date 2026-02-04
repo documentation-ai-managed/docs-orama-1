@@ -197,8 +197,8 @@
   "navbar": {
     "actions": {
       "primary": {
-        "title": "Web Orama",
-        "link": "https://www.orama.ai/planes/"
+        "title": "Ir a Orama APP",
+        "link": "https://app.orama.ai/?register=true"
       }
     }
   }
