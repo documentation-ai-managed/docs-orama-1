@@ -193,6 +193,15 @@
                     "icon": "alert-triangle-icon"
                   }
                 ]
+              },
+              {
+                "group": "Varios",
+                "pages": [
+                  {
+                    "title": "Volver a Orama ",
+                    "path": "volver-a-orama"
+                  }
+                ]
               }
             ],
             "tab": "Academy"
