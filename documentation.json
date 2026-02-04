@@ -232,5 +232,6 @@
         }
       ]
     }
-  }
+  },
+  "initialRoute": "volver-a-orama"
 }
