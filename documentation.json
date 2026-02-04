@@ -25,12 +25,12 @@
                 "group": "○ Bienvenido",
                 "pages": [
                   {
-                    "title": "Que es Orama",
-                    "path": "qu-es-orama"
-                  },
-                  {
                     "title": "Bienvenido A Orama",
                     "path": "bienvenido-a-orama"
+                  },
+                  {
+                    "title": "Que es Orama",
+                    "path": "qu-es-orama"
                   },
                   {
                     "title": "Precios",
@@ -64,7 +64,7 @@
                 ]
               },
               {
-                "group": "🔵 Gestión diaria de la tesorería",
+                "group": "○ Gestión diaria de la tesorería",
                 "icon": "layers",
                 "pages": [
                   {
@@ -95,7 +95,7 @@
                 ]
               },
               {
-                "group": "🔵 Importaciones y automatización",
+                "group": "○ Importaciones y automatización",
                 "icon": "grid",
                 "pages": [
                   {
@@ -116,7 +116,7 @@
                 ]
               },
               {
-                "group": "🔵 Previsiones, ERP y control avanzado",
+                "group": "○ Previsiones, ERP y control avanzado",
                 "pages": [
                   {
                     "title": "Crea una previsión",
@@ -141,7 +141,7 @@
                 ]
               },
               {
-                "group": "🔵 Financiación e instrumentos",
+                "group": "○ Financiación e instrumentos",
                 "pages": [
                   {
                     "title": "Qué es y cómo funciona confirming",
@@ -156,7 +156,7 @@
                 ]
               },
               {
-                "group": "🔵 Casos especiales y uso avanzado",
+                "group": "○ Casos especiales y uso avanzado",
                 "pages": [
                   {
                     "title": "Remesas: qué son y cómo usarlas",
