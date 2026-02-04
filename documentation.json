@@ -23,7 +23,7 @@
             "groups": [
               {
                 "group": "Primeros pasos",
-                "icon": "rocket",
+                "icon": "alert-triangle-icon",
                 "pages": [
                   {
                     "title": "○ Accede a Orama",
