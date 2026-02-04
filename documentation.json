@@ -22,7 +22,7 @@
             "icon": "book",
             "groups": [
               {
-                "group": "• Bienvenido",
+                "group": "○ Bienvenido",
                 "pages": [
                   {
                     "title": "Que es Orama",
@@ -39,7 +39,7 @@
                 ]
               },
               {
-                "group": " ⚬ Primeros pasos",
+                "group": "○ Primeros pasos",
                 "icon": "align-center-icon",
                 "pages": [
                   {
@@ -196,7 +196,7 @@
                 ]
               }
             ],
-            "tab": "Academy"
+            "tab": "."
           }
         ],
         "icon": "circle-check"
@@ -221,10 +221,6 @@
         {
           "title": "APP Orama",
           "link": "https://app.orama.ai/?register=true"
-        },
-        {
-          "title": "Orama WEB",
-          "link": "https://orama.ai"
         }
       ]
     }
