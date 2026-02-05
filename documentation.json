@@ -29,10 +29,6 @@
                   {
                     "title": "Que es Orama",
                     "path": "qu-es-orama"
-                  },
-                  {
-                    "title": "Precios",
-                    "path": "precios"
                   }
                 ]
               },
@@ -196,6 +192,10 @@
               {
                 "group": "Varios",
                 "pages": [
+                  {
+                    "title": "Precios",
+                    "path": "precios"
+                  },
                   {
                     "title": "Volver a Orama ",
                     "path": "volver-a-orama"
