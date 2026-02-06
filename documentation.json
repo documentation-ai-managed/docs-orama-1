@@ -20,7 +20,7 @@
           {
             "groups": [
               {
-                "group": "○ Bienvenido",
+                "group": "● Bienvenido",
                 "pages": [
                   {
                     "title": "  Bienvenido A Orama",
@@ -33,30 +33,29 @@
                 ]
               },
               {
-                "group": "○ Primeros pasos",
+                "group": "► Primeros pasos",
                 "icon": "align-center-icon",
                 "pages": [
                   {
-                    "title": "Accede a Orama",
+                    "title": " – Accede a Orama",
                     "path": "test"
                   },
                   {
-                    "title": "Damos una vuelta por Orama",
+                    "title": "▸ Damos una vuelta por Orama",
                     "path": "primeros-pasos"
                   },
                   {
-                    "title": "Conecta tus bancos",
+                    "title": "↳ Conecta tus bancos",
                     "path": "conectabancos"
                   },
                   {
-                    "title": "Cuadro de tesorería: Qué es y cómo leerlo",
+                    "title": "» Cuadro de tesorería: Qué es y cómo leerlo",
                     "path": "cuadrotesoreria"
                   }
                 ]
               },
               {
-                "group": "○ Gestión diaria de la tesorería",
-                "icon": "",
+                "group": "▪ Gestión diaria de la tesorería",
                 "pages": [
                   {
                     "title": "Qué es una partida y cómo crearla",
@@ -81,19 +80,19 @@
                 ]
               },
               {
-                "group": "○ Importaciones y automatización",
+                "group": "• Importaciones y automatización",
                 "icon": "grid",
                 "pages": [
                   {
-                    "title": "Importa tus movimientos en Excel",
+                    "title": "– Importa tus movimientos en Excel",
                     "path": "importa-movimientos"
                   },
                   {
-                    "title": "Importa tus facturas en Excel",
+                    "title": "– Importa tus facturas en Excel",
                     "path": "importa-facturas"
                   },
                   {
-                    "title": "Importa tus previsiones en Excel",
+                    "title": "– Importa tus previsiones en Excel",
                     "path": "importa-previsiones"
                   }
                 ]
@@ -136,7 +135,7 @@
                 "group": "○ Casos especiales y uso avanzado",
                 "pages": [
                   {
-                    "title": "- Remesas: qué son y cómo usarlas",
+                    "title": "       - Remesas: qué son y cómo usarlas",
                     "path": "remesas-qu-son-y-cmo-usarlas"
                   },
                   {
