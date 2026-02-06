@@ -37,18 +37,16 @@
                 "icon": "align-center-icon",
                 "pages": [
                   {
-                    "title": "○ Accede a Orama",
+                    "title": "Accede a Orama",
                     "path": "test"
                   },
                   {
                     "title": "Damos una vuelta por Orama",
-                    "path": "primeros-pasos",
-                    "icon": "home"
+                    "path": "primeros-pasos"
                   },
                   {
                     "title": "Conecta tus bancos",
-                    "path": "conectabancos",
-                    "icon": "zap"
+                    "path": "conectabancos"
                   },
                   {
                     "title": "Cuadro de tesorería: Qué es y cómo leerlo",
@@ -59,7 +57,7 @@
               },
               {
                 "group": "○ Gestión diaria de la tesorería",
-                "icon": "layers",
+                "icon": "",
                 "pages": [
                   {
                     "title": "Qué es una partida y cómo crearla",
