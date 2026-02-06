@@ -50,8 +50,7 @@
                   },
                   {
                     "title": "Cuadro de tesorería: Qué es y cómo leerlo",
-                    "path": "cuadrotesoreria",
-                    "icon": "activity"
+                    "path": "cuadrotesoreria"
                   }
                 ]
               },
@@ -61,28 +60,23 @@
                 "pages": [
                   {
                     "title": "Qué es una partida y cómo crearla",
-                    "path": "crearpartida",
-                    "icon": "file-text"
+                    "path": "crearpartida"
                   },
                   {
                     "title": "Editar partidas",
-                    "path": "editar-partidas",
-                    "icon": "airplay"
+                    "path": "editar-partidas"
                   },
                   {
                     "title": "Crea y gestiona categorías",
-                    "path": "crea-y-gestiona-categoras",
-                    "icon": "align-center-icon"
+                    "path": "crea-y-gestiona-categoras"
                   },
                   {
                     "title": "Conciliación de movimientos",
-                    "path": "conciliacin-de-movimientos",
-                    "icon": "album"
+                    "path": "conciliacin-de-movimientos"
                   },
                   {
                     "title": "Gestión de facturas",
-                    "path": "gestin-de-facturas",
-                    "icon": "alert-triangle"
+                    "path": "gestin-de-facturas"
                   }
                 ]
               },
@@ -92,18 +86,15 @@
                 "pages": [
                   {
                     "title": "Importa tus movimientos en Excel",
-                    "path": "importa-movimientos",
-                    "icon": "alert-circle-icon"
+                    "path": "importa-movimientos"
                   },
                   {
                     "title": "Importa tus facturas en Excel",
-                    "path": "importa-facturas",
-                    "icon": "alert-triangle-icon"
+                    "path": "importa-facturas"
                   },
                   {
                     "title": "Importa tus previsiones en Excel",
-                    "path": "importa-previsiones",
-                    "icon": "plug"
+                    "path": "importa-previsiones"
                   }
                 ]
               },
@@ -112,23 +103,19 @@
                 "pages": [
                   {
                     "title": "Crea una previsión",
-                    "path": "crea-una-previsin",
-                    "icon": "a-arrow-down-icon"
+                    "path": "crea-una-previsin"
                   },
                   {
                     "title": "Conecta tu ERP",
-                    "path": "conecta-tu-erp",
-                    "icon": "activity-square-icon"
+                    "path": "conecta-tu-erp"
                   },
                   {
                     "title": "Qué es un saldo pendiente",
-                    "path": "qu-es-un-saldo-pendiente",
-                    "icon": "alarm-clock-plus-icon"
+                    "path": "qu-es-un-saldo-pendiente"
                   },
                   {
                     "title": "Actualiza tus saldos pendientes",
-                    "path": "actualiza-tus-saldos-pendientes",
-                    "icon": "airplay-icon"
+                    "path": "actualiza-tus-saldos-pendientes"
                   }
                 ]
               },
@@ -137,13 +124,11 @@
                 "pages": [
                   {
                     "title": "Qué es y cómo funciona confirming",
-                    "path": "-confirming",
-                    "icon": "a-arrow-down"
+                    "path": "-confirming"
                   },
                   {
                     "title": "Qué es y cómo funciona factoring",
-                    "path": "factoring",
-                    "icon": "align-center-vertical-icon"
+                    "path": "factoring"
                   }
                 ]
               },
@@ -151,39 +136,32 @@
                 "group": "○ Casos especiales y uso avanzado",
                 "pages": [
                   {
-                    "title": "Remesas: qué son y cómo usarlas",
-                    "path": "remesas-qu-son-y-cmo-usarlas",
-                    "icon": "accessibility-icon"
+                    "title": "- Remesas: qué son y cómo usarlas",
+                    "path": "remesas-qu-son-y-cmo-usarlas"
                   },
                   {
-                    "title": "Análisis visual",
-                    "path": "anlisis-visual",
-                    "icon": "activity"
+                    "title": "- Análisis visual",
+                    "path": "anlisis-visual"
                   },
                   {
-                    "title": "Mete movimientos AMEX",
-                    "path": "mete-movimientos-amex",
-                    "icon": "align-center"
+                    "title": "- Mete movimientos AMEX",
+                    "path": "mete-movimientos-amex"
                   },
                   {
-                    "title": "Dividir un movimiento",
-                    "path": "dividir-un-movimiento",
-                    "icon": "align-center-vertical"
+                    "title": "- Dividir un movimiento",
+                    "path": "dividir-un-movimiento"
                   },
                   {
-                    "title": "Dashboard",
-                    "path": "dashboard",
-                    "icon": "activity-square-icon"
+                    "title": "- Dashboard",
+                    "path": "dashboard"
                   },
                   {
-                    "title": "Matriz y multiempresa: cómo funciona",
-                    "path": "matriz-y-multiempresa-cmo-funciona",
-                    "icon": "a-arrow-down-icon"
+                    "title": "- Matriz y multiempresa: cómo funciona",
+                    "path": "matriz-y-multiempresa-cmo-funciona"
                   },
                   {
-                    "title": "Reportes y escenarios",
-                    "path": "reportes-y-escenarios",
-                    "icon": "alert-triangle-icon"
+                    "title": "- Reportes y escenarios",
+                    "path": "reportes-y-escenarios"
                   }
                 ]
               },
