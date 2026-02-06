@@ -20,14 +20,14 @@
           {
             "groups": [
               {
-                "group": "• Bienvenido",
+                "group": " Bienvenido",
                 "pages": [
                   {
-                    "title": "  Bienvenido a Orama Academy",
+                    "title": " • Bienvenido a Orama Academy",
                     "path": "bienvenido-a-orama"
                   },
                   {
-                    "title": "Qué es Orama",
+                    "title": "• Qué es Orama",
                     "path": "qu-es-orama"
                   }
                 ]
@@ -55,111 +55,111 @@
                 ]
               },
               {
-                "group": "• Gestión diaria de la tesorería",
+                "group": " Gestión diaria de la tesorería",
                 "pages": [
                   {
-                    "title": "Qué es una partida y cómo crearla",
+                    "title": "• Qué es una partida y cómo crearla",
                     "path": "crearpartida"
                   },
                   {
-                    "title": "Editar partidas",
+                    "title": "• Editar partidas",
                     "path": "editar-partidas"
                   },
                   {
-                    "title": "Crea y gestiona categorías",
+                    "title": "• Crea y gestiona categorías",
                     "path": "crea-y-gestiona-categoras"
                   },
                   {
-                    "title": "Conciliación de movimientos",
+                    "title": "• Conciliación de movimientos",
                     "path": "conciliacin-de-movimientos"
                   },
                   {
-                    "title": "Gestión de facturas",
+                    "title": "• Gestión de facturas",
                     "path": "gestin-de-facturas"
                   }
                 ]
               },
               {
-                "group": "• Importaciones y automatización",
+                "group": "Importaciones y automatización",
                 "icon": "grid",
                 "pages": [
                   {
-                    "title": " Importa tus movimientos en Excel",
+                    "title": " • Importa tus movimientos en Excel",
                     "path": "importa-movimientos"
                   },
                   {
-                    "title": " Importa tus facturas en Excel",
+                    "title": " • Importa tus facturas en Excel",
                     "path": "importa-facturas"
                   },
                   {
-                    "title": " Importa tus previsiones en Excel",
+                    "title": " • Importa tus previsiones en Excel",
                     "path": "importa-previsiones"
                   }
                 ]
               },
               {
-                "group": "• Previsiones, ERP y control avanzado",
+                "group": "Previsiones, ERP y control avanzado",
                 "pages": [
                   {
-                    "title": "Crea una previsión",
+                    "title": "• Crea una previsión",
                     "path": "crea-una-previsin"
                   },
                   {
-                    "title": "Conecta tu ERP",
+                    "title": "• Conecta tu ERP",
                     "path": "conecta-tu-erp"
                   },
                   {
-                    "title": "Qué es un saldo pendiente",
+                    "title": "• Qué es un saldo pendiente",
                     "path": "qu-es-un-saldo-pendiente"
                   },
                   {
-                    "title": "Actualiza tus saldos pendientes",
+                    "title": "• Actualiza tus saldos pendientes",
                     "path": "actualiza-tus-saldos-pendientes"
                   }
                 ]
               },
               {
-                "group": "• Financiación e instrumentos",
+                "group": "Financiación e instrumentos",
                 "pages": [
                   {
-                    "title": "Qué es y cómo funciona confirming",
+                    "title": "• Qué es y cómo funciona confirming",
                     "path": "-confirming"
                   },
                   {
-                    "title": "Qué es y cómo funciona factoring",
+                    "title": "• Qué es y cómo funciona factoring",
                     "path": "factoring"
                   }
                 ]
               },
               {
-                "group": "• Casos especiales y uso avanzado",
+                "group": "Casos especiales y uso avanzado",
                 "pages": [
                   {
-                    "title": " Remesas: qué son y cómo usarlas",
+                    "title": " • Remesas: qué son y cómo usarlas",
                     "path": "remesas-qu-son-y-cmo-usarlas"
                   },
                   {
-                    "title": " Análisis visual",
+                    "title": "• Análisis visual",
                     "path": "anlisis-visual"
                   },
                   {
-                    "title": "Mete movimientos AMEX",
+                    "title": "• Mete movimientos AMEX",
                     "path": "mete-movimientos-amex"
                   },
                   {
-                    "title": "Dividir un movimiento",
+                    "title": "• Dividir un movimiento",
                     "path": "dividir-un-movimiento"
                   },
                   {
-                    "title": " Dashboard",
+                    "title": " • Dashboard",
                     "path": "dashboard"
                   },
                   {
-                    "title": "Matriz y multiempresa: cómo funciona",
+                    "title": "• Matriz y multiempresa: cómo funciona",
                     "path": "matriz-y-multiempresa-cmo-funciona"
                   },
                   {
-                    "title": "Reportes y escenarios",
+                    "title": "• Reportes y escenarios",
                     "path": "reportes-y-escenarios"
                   }
                 ]
@@ -168,11 +168,11 @@
                 "group": "Varios",
                 "pages": [
                   {
-                    "title": "Precios",
+                    "title": "• Precios",
                     "path": "precios"
                   },
                   {
-                    "title": "Volver a Orama ",
+                    "title": "• Volver a Orama ",
                     "path": "volver-a-orama"
                   }
                 ]
