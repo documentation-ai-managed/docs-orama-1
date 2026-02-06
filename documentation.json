@@ -20,7 +20,7 @@
           {
             "groups": [
               {
-                "group": "● Bienvenido",
+                "group": "• Bienvenido",
                 "pages": [
                   {
                     "title": "  Bienvenido A Orama",
@@ -33,29 +33,29 @@
                 ]
               },
               {
-                "group": "► Primeros pasos",
+                "group": "• Primeros pasos",
                 "icon": "align-center-icon",
                 "pages": [
                   {
-                    "title": " – Accede a Orama",
+                    "title": " Accede a Orama",
                     "path": "test"
                   },
                   {
-                    "title": "▸ Damos una vuelta por Orama",
+                    "title": "Damos una vuelta por Orama",
                     "path": "primeros-pasos"
                   },
                   {
-                    "title": "↳ Conecta tus bancos",
+                    "title": "Conecta tus bancos",
                     "path": "conectabancos"
                   },
                   {
-                    "title": "» Cuadro de tesorería: Qué es y cómo leerlo",
+                    "title": "Cuadro de tesorería: Qué es y cómo leerlo",
                     "path": "cuadrotesoreria"
                   }
                 ]
               },
               {
-                "group": "▪ Gestión diaria de la tesorería",
+                "group": "• Gestión diaria de la tesorería",
                 "pages": [
                   {
                     "title": "Qué es una partida y cómo crearla",
@@ -84,21 +84,21 @@
                 "icon": "grid",
                 "pages": [
                   {
-                    "title": "– Importa tus movimientos en Excel",
+                    "title": " Importa tus movimientos en Excel",
                     "path": "importa-movimientos"
                   },
                   {
-                    "title": "– Importa tus facturas en Excel",
+                    "title": " Importa tus facturas en Excel",
                     "path": "importa-facturas"
                   },
                   {
-                    "title": "– Importa tus previsiones en Excel",
+                    "title": " Importa tus previsiones en Excel",
                     "path": "importa-previsiones"
                   }
                 ]
               },
               {
-                "group": "○ Previsiones, ERP y control avanzado",
+                "group": "• Previsiones, ERP y control avanzado",
                 "pages": [
                   {
                     "title": "Crea una previsión",
@@ -119,7 +119,7 @@
                 ]
               },
               {
-                "group": "○ Financiación e instrumentos",
+                "group": "• Financiación e instrumentos",
                 "pages": [
                   {
                     "title": "Qué es y cómo funciona confirming",
@@ -132,34 +132,34 @@
                 ]
               },
               {
-                "group": "○ Casos especiales y uso avanzado",
+                "group": "• Casos especiales y uso avanzado",
                 "pages": [
                   {
-                    "title": "       - Remesas: qué son y cómo usarlas",
+                    "title": " Remesas: qué son y cómo usarlas",
                     "path": "remesas-qu-son-y-cmo-usarlas"
                   },
                   {
-                    "title": "- Análisis visual",
+                    "title": " Análisis visual",
                     "path": "anlisis-visual"
                   },
                   {
-                    "title": "- Mete movimientos AMEX",
+                    "title": "Mete movimientos AMEX",
                     "path": "mete-movimientos-amex"
                   },
                   {
-                    "title": "- Dividir un movimiento",
+                    "title": "Dividir un movimiento",
                     "path": "dividir-un-movimiento"
                   },
                   {
-                    "title": "- Dashboard",
+                    "title": " Dashboard",
                     "path": "dashboard"
                   },
                   {
-                    "title": "- Matriz y multiempresa: cómo funciona",
+                    "title": "Matriz y multiempresa: cómo funciona",
                     "path": "matriz-y-multiempresa-cmo-funciona"
                   },
                   {
-                    "title": "- Reportes y escenarios",
+                    "title": "Reportes y escenarios",
                     "path": "reportes-y-escenarios"
                   }
                 ]
