@@ -203,7 +203,7 @@
                 ]
               }
             ],
-            "tab": "Volverrrr ➜"
+            "tab": "_"
           }
         ],
         "icon": "circle-check"
@@ -220,6 +220,10 @@
   "template": "atlas",
   "navbar": {
     "actions": {
+      "primary": {
+        "title": "Salir",
+        "link": "https://orama-1770108648.documentationai.com/volver-a-orama"
+      },
       "links": [
         {
           "title": "Ir a Orama APP",
