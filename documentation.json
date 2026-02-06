@@ -33,23 +33,23 @@
                 ]
               },
               {
-                "group": "• Primeros pasos",
+                "group": " Primeros pasos",
                 "icon": "align-center-icon",
                 "pages": [
                   {
-                    "title": " Accede a Orama",
+                    "title": " • Accede a Orama",
                     "path": "test"
                   },
                   {
-                    "title": "Damos una vuelta por Orama",
+                    "title": "• Damos una vuelta por Orama",
                     "path": "primeros-pasos"
                   },
                   {
-                    "title": "Conecta tus bancos",
+                    "title": "• Conecta tus bancos",
                     "path": "conectabancos"
                   },
                   {
-                    "title": "Cuadro de tesorería: Qué es y cómo leerlo",
+                    "title": "• Cuadro de tesorería: Qué es y cómo leerlo",
                     "path": "cuadrotesoreria"
                   }
                 ]
