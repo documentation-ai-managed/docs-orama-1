@@ -23,11 +23,11 @@
                 "group": "• Bienvenido",
                 "pages": [
                   {
-                    "title": "  Bienvenido A Orama",
+                    "title": "  Bienvenido a Orama Academy",
                     "path": "bienvenido-a-orama"
                   },
                   {
-                    "title": "Que es Orama",
+                    "title": "Qué es Orama",
                     "path": "qu-es-orama"
                   }
                 ]
