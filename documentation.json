@@ -20,14 +20,22 @@
           {
             "groups": [
               {
-                "group": " Bienvenido",
+                "group": "Empezamos",
                 "pages": [
                   {
-                    "title": " • Bienvenido a Orama Academy",
+                    "title": "• Primeros pasos en Orama",
+                    "path": "primeros-pasos-en-orama"
+                  },
+                  {
+                    "title": "• Navegar en Orama con facilidad",
+                    "path": "navegar-en-orama-con-facilidad"
+                  },
+                  {
+                    "title": " • Bienvenido a Academy",
                     "path": "bienvenido-a-orama"
                   },
                   {
-                    "title": "• Qué es Orama",
+                    "title": "• ¿Qué es Orama?",
                     "path": "qu-es-orama"
                   }
                 ]
