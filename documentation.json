@@ -23,20 +23,20 @@
                 "group": "Empezamos",
                 "pages": [
                   {
-                    "title": "• Primeros pasos en Orama",
-                    "path": "primeros-pasos-en-orama"
-                  },
-                  {
-                    "title": "• Navegar en Orama con facilidad",
-                    "path": "navegar-en-orama-con-facilidad"
-                  },
-                  {
                     "title": " • Bienvenido a Academy",
                     "path": "bienvenido-a-orama"
                   },
                   {
                     "title": "• ¿Qué es Orama?",
                     "path": "qu-es-orama"
+                  },
+                  {
+                    "title": "• Navega con facilidad",
+                    "path": "navegar-en-orama-con-facilidad"
+                  },
+                  {
+                    "title": "• Primeros pasos",
+                    "path": "primeros-pasos-en-orama"
                   }
                 ]
               },
